@@ -4,14 +4,14 @@ let wordle = (target, guess) => {
     for(let i = 0; i < guess.length; i++)
     {
         if(guess[i] == target[i]){
-            result = result.concat("2");
+            result += "2";
             removeMatchedElement(i);
         } else if (target.includes(guess[i])){
-            result = result.concat("1");
+            result += "1";
             const IndexOfmatchingChar = target.indexOf(guess[i])
             removeMatchedElement(IndexOfmatchingChar)
         } else {
-            result = result.concat("0");
+            result += "0";
         }
     }
 
