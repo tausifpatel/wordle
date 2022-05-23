@@ -1,0 +1,14 @@
+{
+  "name": "wordle",
+  "version": "1.0.0",
+  "description": "Wordle kata",
+  "main": "wordle.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Tausif Patel",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
